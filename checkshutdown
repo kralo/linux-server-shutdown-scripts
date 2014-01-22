@@ -1,0 +1,3 @@
+# to be placed in /etc/cron.d/
+# Auto shutdown
+*/20 * * * * root /usr/local/sbin/checkshutdown.sh
